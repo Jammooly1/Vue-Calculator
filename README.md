@@ -1,4 +1,4 @@
-# Calculator
+# Calculator (Vue 3)
 
 ![calculator image](vue_calculator.png)
 
