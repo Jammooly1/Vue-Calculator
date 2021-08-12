@@ -1,4 +1,6 @@
-# calculator
+# Calculator
+
+![calculator image](vue_calculator.png)
 
 ## Project setup
 ```
