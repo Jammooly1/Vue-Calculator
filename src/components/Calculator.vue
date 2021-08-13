@@ -2,7 +2,7 @@
   <div class="p-3" style="max-width: 500px; margin: 0px auto; background: #234; border-radius: 5px; box-shadow: gray .5px .5px .5px .5px;">
       
       <div class="input-group mt-2 mb-3 input_button">
-        <input  type="text" v-model="calculatorValue" class="form-control" placeholder="" aria-label="math equation" aria-describedby="basic-addon2">
+        <input @keyup.enter="buttons('solve')" type="text" v-model="calculatorValue" class="form-control" placeholder="" aria-label="math equation" aria-describedby="basic-addon2">
         <div class="input-group-append">
             <button @click="buttons('solve')" class="btn bg-vue-green btn-lg text-white" type="button">SOLVE</button>
         </div>
